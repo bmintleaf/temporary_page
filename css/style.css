@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #f9faf8;
+    background-image: url("../img/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+
+.soon {
+    font-weight: 800;
+    font-size: 5em;
+}
+
+.aufbau {
+    font-size: 1.25em;
+    width: 70%;
+    text-align: center;
+}
+
+.email {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 0.8em;
+    font-weight: 700;
+    border-radius: 0.75em;
+    border: 3px #3882f6 solid;
+}
+
+.email:hover {
+    background-color: #1f2936;
+    border: 3px #3882f6 solid;
+}
+
+a {
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex: 0;
+    margin: 1em;
+    font-size: 0.75em;
+    align-items: center;
+    gap: 1em;
+}
+
+.impressum {
+    font-size: 1.25em;
+}
+
+.impressum:hover {
+    color: #3882f6;
+}
