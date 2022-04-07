@@ -28,6 +28,11 @@ p {
     gap: 3em;
 }
 
+.button-container {
+    display: flex;
+    gap: 0.75em;
+}
+
 .soon {
     font-weight: 800;
     font-size: 5em;
@@ -40,20 +45,32 @@ p {
     text-align: center;
 }
 
-.email {
+.buttons {
     color: #f9faf8;
     background-color: #3882f6;
-    padding: 0.8em;
     font-weight: 700;
+    font-size: 20px;
     border-radius: 0.75em;
     border: 3px #3882f6 solid;
+    height: 2.5em;
+    width: 7em;
+    display: flex;
+}
+
+.buttons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    flex: 1;
 }
 
 .prog {
     font-size: 1.5em;
 }
 
-.email:hover {
+.buttons:hover {
     background-color: #1f2936;
     border: 3px #3882f6 solid;
 }
