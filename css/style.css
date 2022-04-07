@@ -98,3 +98,7 @@ footer {
 .impressum:hover {
     color: #3882f6;
 }
+
+img {
+    width: 25%;
+}
